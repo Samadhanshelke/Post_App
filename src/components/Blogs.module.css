@@ -1,0 +1,108 @@
+.main{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main div{
+    padding:0 10px 10px;
+}
+.image{
+    background-size:cover;
+    width: 100%;
+}
+
+.heading{
+    font-weight: 600;
+    margin: 0;
+    font-size: 24px;
+}
+.date{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.date span{
+    opacity: 0.7;
+}
+
+.desc{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.btns{
+    margin: 10px 0;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.read-btn{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    height: fit-content;
+    padding: 12px 24px;
+    border:1px solid gray;
+    display: flex;
+    align-items: center;
+
+}
+
+.read-btn:hover{
+    background-color: #c5c8c5;
+   
+}
+
+.comment{
+    font-weight: 600;
+}
+
+.value{
+    padding: 2px 6px;
+    font-weight: 600;
+    background-color: black;
+    color:white;
+    margin-left: 4px;
+}
+
+.addComment{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: start;
+    flex-direction: column;
+}
+.addComment input{
+    padding: 5px;
+    outline: none;
+}
+
+.addComment button{
+    cursor: pointer;
+    color:black;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.addComment button:hover{
+    background-color: beige;
+}
+
+.addComment div{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.comment_btn{
+    cursor: pointer;
+}
+
+@media screen and (max-width:721px){
+    .addComment,.comment_btn{
+        display: none;
+    }
+}

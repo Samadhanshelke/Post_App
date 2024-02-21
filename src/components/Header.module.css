@@ -1,0 +1,29 @@
+.main{
+    width:100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 600;
+}
+.subheading{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.subheading span{
+    background-color: black;
+    padding: 2px 5px;
+    color:white;
+    margin-left: 6px;
+ 
+}
