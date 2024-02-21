@@ -1,20 +1,20 @@
-#Prerequisites
-##Before you begin, ensure you have the following installed on your machine:
+# Prerequisites
+## Before you begin, ensure you have the following installed on your machine:
 
-###Node.js (version >= 12.0.0)
-###npm (Node Package Manager) or yarn
-#Installation
-##Clone the repository from GitHub:
+### Node.js (version >= 12.0.0)
+### npm (Node Package Manager) or yarn
+# Installation
+## Clone the repository from GitHub:
 
-###git clone https://github.com/Samadhanshelke/Post_App.git
+### git clone https://github.com/Samadhanshelke/Post_App.git
 Navigate to the project directory:
 
 
-##cd project-directory
-##Install dependencies using npm or yarn:
+## cd project-directory
+## Install dependencies using npm or yarn:
 
 
-##npm install
+## npm install
 Configuration
 No additional configuration is required for running the application locally.
 
